@@ -11,7 +11,6 @@ function App() {
 
   const updateUserQuery = event => {
     setUserQuery(event.target.value);
-    console.log("userQuery", userQuery);
   }
 
   const handleKeyPress = event => {
